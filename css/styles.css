@@ -1,0 +1,186 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+
+}
+
+/*Title Section*/
+#title{
+  background-color: #00ABB3;
+  padding: 3% 15% 5%
+}
+
+.brand-title{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.links{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.20rem;
+}
+
+.nav-list{
+  padding: 0 18px;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.title-quote{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.btn-buy{
+  margin: 5% 3% 5% 0;
+}
+
+.fab-icon{
+  margin-right: 10px;
+}
+
+.title-img{
+  transform: rotate(10deg);
+  width: 85%;
+  position: absolute;
+  left:20%;
+}
+
+/*Features Section*/
+#features{
+  padding: 7% 14%;
+  text-align: center;
+  position: relative;
+  background-color: white;
+  z-index: 1;
+}
+
+.fa-icon{
+  color: #00ABB3;
+  margin: 1rem;
+}
+
+.fa-icon:hover{
+  color: #B8E8FC;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.feature-col{
+  padding: 5%
+}
+
+/*Testimonials*/
+#testimonials{
+background-color: #00ABB3;
+text-align: center;
+color: white;
+
+}
+
+.test-img{
+  width: 70%;
+  border-radius: 20%;
+  margin: 30px;
+}
+
+.testimonial-text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item{
+  padding: 7% 10%;
+}
+
+.test-desc{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+/*Press*/
+#press{
+  background-color: #00ABB3;
+  text-align: center;
+  padding: 3%
+}
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*Pricing*/
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+.price-head, .price-text{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*Call to action*/
+#cta{
+  background-color: #00ABB3;
+  text-align: center;
+  padding: 7% 14%;
+}
+
+.cta-title{
+  font-weight: 900;
+  line-height: 1.5;
+  color: white;
+  font-size: 3.5rem;
+}
+
+#footer{
+  text-align: center;
+  font-weight:
+}
+
+.foot-icon{
+  padding: 30px 15px;
+}
+
+@media (max-width:1024px){
+  .title-quote{
+    font-size: 3rem;
+  }
+  .btn-buy{
+    margin-right: 6px;
+  }
+}
+
+@media(max-width:768px) {
+  .title-img{
+    position: relative;
+    left: 50px;
+  }
+  .column-one{
+    text-align: center;
+  }
+}
+
+@media(max-width:320px) {
+  .title-img{
+    position: relative;
+    left: 30px;
+  }
+  .column-one{
+    text-align: center;
+  }
+}
